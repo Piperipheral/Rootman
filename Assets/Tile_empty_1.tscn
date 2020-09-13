@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Tile_empty_1.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Tiles/TileSprite_Animation 1_0.png" type="Texture" id=2]
+
+[node name="Tile_empty_1" type="Node2D"]
+script = ExtResource( 1 )
+yOffsetOnSpawn = 100.0
+
+[node name="mySprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
